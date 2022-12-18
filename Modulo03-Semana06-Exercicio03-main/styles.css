@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#titleBox {
+    width: 95%;
+    height: 200px;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: xx-large;
+}
+
+figure figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+figure {
+    margin: 20px;
+}
+
+img {
+    height: 500px;
+}
+
+#timeline h3 {
+    text-align: center;
+    margin: 30px;
+}
+
+#timeline {
+    margin: 30px;
+    display: flex;
+    background-color: beige;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+#timeline li {
+    margin: 5px;
+}
